@@ -1,0 +1,179 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media only screen and (min-width: 1400px) and (max-width: 1920px) {
+  .img-bg {
+    height: 900px; }
+
+  .header .header-text {
+    top: 400px; }
+
+  .about .about-gradient {
+    top: -95px;
+    height: 900px; }
+
+  .interest {
+    height: 550px; }
+    .interest .interest-gradient {
+      top: -95px;
+      height: 550px; }
+
+  .protfolio .protfolio-gradient {
+    position: relative;
+    top: -95px; }
+
+  .field {
+    height: 800px; }
+    .field .field-gradient {
+      top: -95px; }
+
+  .testimonials {
+    height: 600px; }
+    .testimonials .testimonials-gradient {
+      top: -95px;
+      height: 600px; } }
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  body {
+    overflow-x: hidden; }
+
+  .section-header {
+    padding: 5% 0; }
+
+  .header {
+    background-position: center center; }
+    .header .menu {
+      background: transparent;
+      position: absolute; }
+    .header .header-text {
+      top: 155px; }
+      .header .header-text span {
+        max-width: 240px;
+        border-right: 5px solid #fff;
+        font-size: 30px;
+        display: inline-block; }
+      .header .header-text p {
+        font-size: 13px; }
+      .header .header-text a {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px; }
+
+  .about {
+    height: 980px; }
+    .about .about-gradient {
+      height: 980px;
+      top: -19px; }
+      .about .about-gradient .about-intro .owner-photo {
+        margin-bottom: 30px; }
+      .about .about-gradient .about-intro p {
+        font-size: 16px; }
+
+  .skills {
+    height: 1000px; }
+    .skills .section-content .col-12 {
+      margin-top: 55px; }
+    .skills .section-content .skill-text h5 {
+      margin-bottom: 55px; }
+    .skills .section-content .skill-text .skill-box {
+      margin-top: 35px; }
+
+  .interest {
+    height: 630px; }
+    .interest .interest-gradient {
+      top: -19px;
+      height: 630px; }
+      .interest .interest-gradient .section-header p {
+        color: #fff; }
+      .interest .interest-gradient .section-header span {
+        color: #000; }
+
+  .education, .experience {
+    height: 1440px; }
+    .education .section-content .education-item .education-content .edu-year, .experience .section-content .education-item .education-content .edu-year {
+      position: unset; }
+      .education .section-content .education-item .education-content .edu-year:after, .experience .section-content .education-item .education-content .edu-year:after {
+        right: 21px; }
+    .education .section-content .education-item .education-content .edu-details, .experience .section-content .education-item .education-content .edu-details {
+      margin-top: 25px; }
+
+  .protfolio {
+    height: 2926px; }
+    .protfolio .protfolio-gradient {
+      height: 2900px; }
+      .protfolio .protfolio-gradient .section-content #pslider {
+        margin-top: 45%; }
+        .protfolio .protfolio-gradient .section-content #pslider .carousel-indicators {
+          display: inline-block;
+          padding: 0;
+          margin: 0;
+          left: -15px; }
+          .protfolio .protfolio-gradient .section-content #pslider .carousel-indicators li {
+            width: 93px;
+            display: inline-block;
+            font-size: 12px;
+            margin-right: 0; }
+        .protfolio .protfolio-gradient .section-content #pslider .col-12 {
+          margin-bottom: 25px; }
+
+  .field {
+    height: 1515px; }
+    .field .field-gradient {
+      top: -95px;
+      height: 1591px; }
+
+  .experience {
+    height: 1380px; }
+
+  .testimonials {
+    height: 679px; }
+    .testimonials .testimonials-gradient {
+      top: -20px;
+      height: 680px; }
+      .testimonials .testimonials-gradient .section-content {
+        width: 85%; }
+        .testimonials .testimonials-gradient .section-content .row .col-12 {
+          padding: 0;
+          margin-bottom: 20px; }
+        .testimonials .testimonials-gradient .section-content .testimonial-box {
+          padding: 10px; }
+          .testimonials .testimonials-gradient .section-content .testimonial-box .client-info .client-photo img {
+            width: 80px;
+            height: 80px; }
+          .testimonials .testimonials-gradient .section-content .testimonial-box .client-info .client-name {
+            font-size: 12px; }
+
+  .contact .section-content {
+    width: 90%; }
+    .contact .section-content .contact-form #map {
+      width: 100%;
+      height: 300px;
+      margin-top: 15px; }
+
+  .address {
+    height: 480px; }
+    .address .col-color {
+      height: auto;
+      background: transparent; } }
+
+/*# sourceMappingURL=mediaqueries.css.map */
